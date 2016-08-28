@@ -1,4 +1,4 @@
-Building OpenWRT image 14.04 (Barier Braker) with SHTC1 humidity sensor support
+Building OpenWRT image 15.05 (Chaos Calmer) with SHTC1 humidity sensor support
 ===============================================================================
 
 In order to include i2c driver, you need to to build our kernel and build driver against it.
