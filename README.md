@@ -33,6 +33,7 @@ This means:
 * Flash the image (i.e., follow the instructions https://wiki.openwrt.org/doc/howto/generic.flashing)
 
 Option 2: Use SDK (The easy way)
+=======================================
 
 * Donwload SDK (e.g, https://downloads.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/OpenWrt-SDK-15.05.1-ramips-rt305x_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64.tar.bz2)
 * Make directory /package/kernel/<YOUR-PACKAGE-NAME>/
