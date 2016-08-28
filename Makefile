@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2008-2012 OpenWrt.org
+# Author: Tomas Pop
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -15,7 +15,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define KernelPackage/shtc1
   SUBMENU:=Other modules
-  DEPENDS:=@!LINUX_3_3 +kmod-hwmon-core
+  DEPENDS:=@!LINUX_3_3 +kmod-i2c-core +kmod-hwmon-core +kmod-i2c-gpio-custom
   TITLE:=Drivers needed for kernel integration with environmental data of shtc1 sensor
   FILES:=$(PKG_BUILD_DIR)/shtc1.ko
   AUTOLOAD:=$(call AutoLoad,30,shtc1,1)
